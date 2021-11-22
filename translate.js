@@ -92,11 +92,12 @@ const morse = englishArr.map((letter)=>{
           break;
         case "z":
           return ("--..");
+        case " ":
+          return (" / ");
           break;
         default :
-        return("invalid");
+          return("invalid");
     }
-
 })
 //join array to form a string
 return morse.join("");

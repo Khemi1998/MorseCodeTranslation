@@ -28,18 +28,19 @@ it("should translate e to .", ()=>{
     expect(result).toBe(".");
 })
 
+//3 invalid tests
 it("should translate ! to invalid", ()=>{
-    const result = translate("!");
+    const result = translateEnglishToMorse("!");
     expect(result).toBe("invalid");
 })
 
 it("should translate $ to invalid", ()=>{
-    const result = translate("$");
+    const result = translateEnglishToMorse("$");
     expect(result).toBe("invalid");
 })
 
 it("should translate % to invalid", ()=>{
-    const result = translate("%");
+    const result = translateEnglishToMorse("%");
     expect(result).toBe("invalid");
 })
 })
@@ -60,6 +61,20 @@ it("should translate bye to -...-.--.", ()=>{
     const result = translateEnglishToMorse("bye");
     expect(result).toBe("-...-.--.");
 })
+})
+
+describe ("Translate words to morse", () => {
+    //2 tests (words to morse)
+    it("should translate hi bye to ...... / -...-.--.", ()=>{
+        const result = translateEnglishToMorse("hi bye");
+        expect(result).toBe("...... / -...-.--.");
+    })
+    
+    it("should translate hello world to ......-...-..--- / ", ()=>{
+        const result = translateEnglishToMorse("hello");
+        expect(result).toBe("......-...-..---");
+    })
+    
 })
 /*
 //5 valid tests (morse to letters)
