@@ -1,7 +1,7 @@
 import {expect, it, describe} from "@jest/globals";
 import {translateEnglishToMorse} from "./translate.js"
 
-describe ("Translate single letters to morse", () => {
+xdescribe ("Translate single letters to morse", () => {
 //5 valid tests (letters to morse)
 it("should translate a to .-", ()=>{
     const result = translateEnglishToMorse("a");
@@ -28,10 +28,28 @@ it("should translate e to .", ()=>{
     expect(result).toBe(".");
 })
 
+it("should translate ! to invalid", ()=>{
+    const result = translate("!");
+    expect(result).toBe("invalid");
+})
+
+it("should translate $ to invalid", ()=>{
+    const result = translate("$");
+    expect(result).toBe("invalid");
+})
+
+it("should translate % to invalid", ()=>{
+    const result = translate("%");
+    expect(result).toBe("invalid");
+})
+})
+
+describe ("Translate single letters to morse", () => {
 //5 valid tests (words to morse)
 it("should translate hi to ......", ()=>{
     const result = translateEnglishToMorse("hi");
     expect(result).toBe("......");
+})
 })
 /*
 //5 valid tests (morse to letters)
@@ -61,18 +79,3 @@ it("should translate e to .", ()=>{
 })*/
 
 //3 invalid tests
-it("should translate ! to invalid", ()=>{
-    const result = translate("!");
-    expect(result).toBe("invalid");
-})
-
-it("should translate $ to invalid", ()=>{
-    const result = translate("$");
-    expect(result).toBe("invalid");
-})
-
-it("should translate % to invalid", ()=>{
-    const result = translate("%");
-    expect(result).toBe("invalid");
-})
-})
