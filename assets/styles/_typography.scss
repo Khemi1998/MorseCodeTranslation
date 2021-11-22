@@ -1,7 +1,16 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    color: $secondary-color;
+}
+
 h1 {
     display: block;
     align-items: center;
     text-align: center;
     padding: 5%;
-    color: #4b134f;
+}
+
+.toMorse__text, .toMorse__output {
+font-size: 17px;
+
 }

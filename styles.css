@@ -1,9 +1,25 @@
+button {
+  width: 40%;
+  border-radius: 40px;
+  color: white;
+  background-color: #4b134f;
+  font-size: 20px;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: #4b134f;
+}
+
 h1 {
   display: block;
   align-items: center;
   text-align: center;
   padding: 5%;
-  color: #4b134f;
+}
+
+.toMorse__text, .toMorse__output {
+  font-size: 17px;
 }
 
 * {
@@ -19,5 +35,40 @@ body {
 
 .toMorse {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+}
+
+.toMorse__text {
+  width: 90%;
+  height: 150px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+}
+
+:-ms-input-placeholder {
+  color: white;
+}
+
+.toMorse__output {
+  width: 90%;
+  height: 150px;
+  border-radius: 15px;
+  padding: 10px;
+  border: 2px solid white;
+  color: white;
+}
+
+.control__buttons {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 50px;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }

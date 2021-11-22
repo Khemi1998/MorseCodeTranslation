@@ -9,11 +9,46 @@
 }
 
 body{
-    background-image: linear-gradient(#c94b4b, #4b134f);
+    background-image: linear-gradient($primary-color, $secondary-color);
     height: 100vh;
 }
 
 .toMorse {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.toMorse__text {
+    width: 90%;
+    height: 150px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    color: $tertiary-color;
+    border: 2px solid $tertiary-color;
+    background-color: transparent;
+}
+
+:-ms-input-placeholder{
+    color: $tertiary-color;
+}
+
+.toMorse__output {
+    width: 90%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid $tertiary-color;
+    color: $tertiary-color;
+}
+
+.control__buttons {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 50px;
+    justify-content: space-between;
+    margin-bottom: 30px;   
 }
