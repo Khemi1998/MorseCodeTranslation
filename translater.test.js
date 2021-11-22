@@ -65,12 +65,12 @@ it("should translate bye to -...-.--.", ()=>{
 
 describe ("Translate words to morse", () => {
     //2 tests (words to morse)
-    it("should translate hi bye to ...... / -...-.--.", ()=>{
+    it("should translate hi bye to .. .... / -...-.--.", ()=>{
         const result = translateEnglishToMorse("hi bye");
         expect(result).toBe("...... / -...-.--.");
     })
     
-    it("should translate hello world to ......-...-..--- / ", ()=>{
+    it("should translate hello world to ..... .-...-..--- / ", ()=>{
         const result = translateEnglishToMorse("hello");
         expect(result).toBe("......-...-..---");
     })

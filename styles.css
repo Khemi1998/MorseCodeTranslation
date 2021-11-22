@@ -4,3 +4,8 @@
   box-sizing: border-box;
   height: auto;
 }
+
+.toMorse {
+  display: flex;
+  justify-content: space-evenly;
+}

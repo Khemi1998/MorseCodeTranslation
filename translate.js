@@ -99,8 +99,7 @@ const morse = englishArr.map((letter)=>{
           return("invalid");
     }
 })
+
 //join array to form a string
 return morse.join("");
 };
-
-
