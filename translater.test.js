@@ -1,7 +1,7 @@
 import {expect, it, describe} from "@jest/globals";
 import {translateEnglishToMorse} from "./translate.js"
 
-xdescribe ("Translate single letters to morse", () => {
+describe ("Translate single letters to morse", () => {
 //5 valid tests (letters to morse)
 it("should translate a to .-", ()=>{
     const result = translateEnglishToMorse("a");
@@ -45,10 +45,20 @@ it("should translate % to invalid", ()=>{
 })
 
 describe ("Translate single letters to morse", () => {
-//5 valid tests (words to morse)
+//3 tests (words to morse)
 it("should translate hi to ......", ()=>{
     const result = translateEnglishToMorse("hi");
     expect(result).toBe("......");
+})
+
+it("should translate hello to ......-...-..---", ()=>{
+    const result = translateEnglishToMorse("hello");
+    expect(result).toBe("......-...-..---");
+})
+
+it("should translate bye to -...-.--.", ()=>{
+    const result = translateEnglishToMorse("bye");
+    expect(result).toBe("-...-.--.");
 })
 })
 /*

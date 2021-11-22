@@ -1,10 +1,7 @@
 import { moduleExpression } from "@babel/types";
 
 //letters to morse
-export const translateEnglishToMorse = (letter) => {
-
-//example
-let english = "hi";
+export const translateEnglishToMorse = (english) => {
 
 //letters into array
 let englishArr = english.split("")
