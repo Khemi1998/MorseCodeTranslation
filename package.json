@@ -1,0 +1,26 @@
+{
+  "name": "morsecodetranslation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel.config.js",
+  "scripts": {
+    "test": "jest ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khemi1998/MorseCodeTranslation.git"
+  },
+  "author": "Khemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khemi1998/MorseCodeTranslation/issues"
+  },
+  "homepage": "https://github.com/Khemi1998/MorseCodeTranslation#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1"
+  }
+}
