@@ -1,5 +1,3 @@
-import { moduleExpression } from "@babel/types";
-
 //letters to morse
 export const translateEnglishToMorse = (english) => {
 
