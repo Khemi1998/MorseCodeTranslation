@@ -1,8 +1,19 @@
+h1 {
+  display: block;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: auto;
+}
+
+body {
+  background-image: linear-gradient(#c94b4b, #4b134f);
+  height: 100vh;
 }
 
 .toMorse {
