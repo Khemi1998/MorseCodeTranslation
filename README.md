@@ -4,7 +4,7 @@
 
 <h2>Introduction</h2>
 
-<p>THe purpose of this page is implement test-driven designing using jest to create an english to morse-code translater</p>
+<p>THe purpose of this page is implement test-driven designing using jest to create an english to morse-code translater. This translator only works with lowercase letters.</p>
 
 <h2>Design</h2>
 
