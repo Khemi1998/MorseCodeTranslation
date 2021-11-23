@@ -2,7 +2,7 @@
 export const translateEnglishToMorse = (english) => {
 
 //letters into array
-let englishArr = english.split("")
+let englishArr = english.toLowerCase().split("")
 
 //conversion into morse
 const morse = englishArr.map((letter)=>{
@@ -99,5 +99,5 @@ const morse = englishArr.map((letter)=>{
 })
 
 //join array to form a string
-return morse.join("");
+return morse.join(" ");
 };

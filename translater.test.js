@@ -47,32 +47,32 @@ it("should translate % to invalid", ()=>{
 
 describe ("Translate single letters to morse", () => {
 //3 tests (words to morse)
-it("should translate hi to ......", ()=>{
+it("should translate hi to .... ..", ()=>{
     const result = translateEnglishToMorse("hi");
-    expect(result).toBe("......");
+    expect(result).toBe(".... ..");
 })
 
-it("should translate hello to ......-...-..---", ()=>{
+it("should translate hello to .... . .-.. .-.. ---", ()=>{
     const result = translateEnglishToMorse("hello");
-    expect(result).toBe("......-...-..---");
+    expect(result).toBe(".... . .-.. .-.. ---");
 })
 
-it("should translate bye to -...-.--.", ()=>{
+it("should translate bye to -... -.-- .", ()=>{
     const result = translateEnglishToMorse("bye");
-    expect(result).toBe("-...-.--.");
+    expect(result).toBe("-... -.-- .");
 })
 })
 
 describe ("Translate words to morse", () => {
     //2 tests (words to morse)
-    it("should translate hi bye to .. .... / -...-.--.", ()=>{
+    it("should translate hi bye to .... ..  /  -... -.-- .", ()=>{
         const result = translateEnglishToMorse("hi bye");
-        expect(result).toBe("...... / -...-.--.");
+        expect(result).toBe(".... ..  /  -... -.-- .");
     })
     
-    it("should translate hello world to ..... .-...-..--- / ", ()=>{
-        const result = translateEnglishToMorse("hello");
-        expect(result).toBe("......-...-..---");
+    it("should translate hello world to .... . .-.. .-.. ---  /  .-- --- .-. .-.. -..", ()=>{
+        const result = translateEnglishToMorse("hello world");
+        expect(result).toBe(".... . .-.. .-.. ---  /  .-- --- .-. .-.. -..");
     })
     
 })
