@@ -1,7 +1,7 @@
 {
   "name": "morsecodetranslation",
   "version": "1.0.0",
-  "description": "",
+  "description": "<p>Created by Khemi Ramyead</p>",
   "main": "babel.config.js",
   "scripts": {
     "test": "jest ."
