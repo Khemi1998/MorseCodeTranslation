@@ -18,5 +18,6 @@ button.addEventListener("click", () => {
 
 restart.addEventListener("click", ()=>{
    input.value = "";
+   output.innerHTML= "";
    output.innerHTML= `Morse-code will be displayed here`
 })
