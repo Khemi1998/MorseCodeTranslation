@@ -23,7 +23,7 @@ body{
 .toMorse__text {
     width: 90%;
     height: 150px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     border-radius: 15px;
     padding: 10px;
     color: $tertiary-color;
@@ -55,6 +55,6 @@ body{
 
 @media only screen and (min-width: 700px) {
 .toMorse__text, .toMorse__output {
-    height: 260px;
+    height: 230px;
 }
 }
