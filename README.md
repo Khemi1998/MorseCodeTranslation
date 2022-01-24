@@ -10,6 +10,14 @@ https://khemi1998.github.io/MorseCodeTranslation/
 
 <p>THe purpose of this page is implement test-driven designing using jest to create an english to morse-code translater. This translator only works with lowercase letters.</p>
 
+<h2>Technologies 🧠</h2>
+<ul>
+  <li>JavaScript</li>
+  <li>React</li>
+  <li>SCSS</li>
+  <li>HTML</li>
+</ul>
+
 <h2>▫️◽️ Design ◽️▫️</h2>
 
 <p>This translator has been designed with the mobile-first approach. The user input texts in english into the input box then press the converts button to receive the morse-code displayed on the screen. Further improvements would include adding a morse-code to english translater. Further tests can be added to check the invalid responses when words and sentences are coverted to alter the function and notify the user.</p>
