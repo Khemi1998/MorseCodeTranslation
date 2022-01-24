@@ -13,7 +13,6 @@ https://khemi1998.github.io/MorseCodeTranslation/
 <h2>Technologies 🧠</h2>
 <ul>
   <li>JavaScript</li>
-  <li>React</li>
   <li>SCSS</li>
   <li>HTML</li>
 </ul>
